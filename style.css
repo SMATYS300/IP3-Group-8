@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    background-color:#1E005E;
+   }
+   h1, h2, h3 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    
+   
+   }
+   p{
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   nav {
+    background-color: #8000FF;
+   
+    padding: 1rem 0rem;
+    width: 100%;
+   
+    }
+    header{
+         background-color:#ffffff;
+    }
+    footer{
+        background-color:#8000FF ;
+    }
+    article{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+    form {
+       padding:1rem;
+       border: 0.2rem solid black;
+       box-shadow: 0.1rem 0.1rem #888888;
+       background-color: #1E005E;
+    }
+    legend{
+        font-size: 1.5rem;
+        
+    }
+    button{
+        background-color:#8000FF; 
+    }
+    section{
+        background-color: #ffffff;
+        text-align: center;
+    }
+    
+    
+   
+   textarea, input[type="messagebox"]{
+    width:50%;
+    height: 2em;
+    }
+    
+     fieldset{
+    background-color: #C1E7BA;
+    }
+   .navflex {
+    background-color: #8000FF;
+    width: 100%;
+    border-color:#000000;
+   }
+   .navflex a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.8em 0.5em;
+    display: inline-block;
+   }
+   .navflex li.active {
+    background-color: #8000FF;
+    color: #040F0F;
+   }
+   .navflex li:hover {
+    background-color: #8000FF;
+    color: #040F0F;
+   }
+   
+   .navflex ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   }
+   
+   .navflex li {
+    flex: 3;
+    text-align: center;
+   }
+   
+   navflex ul {
+       display: flex;
+       
+       flex-wrap: wrap;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+   navflex li {
+       flex: 3;
+       text-align: center;
+   }
+   @media screen and (max-width:480px){
+       navflex ul {
+           flex-direction: column;
+       }
+       navfelx li {
+           text-align: left;
+       }
+       header img{
+           width:100%;
+
+           align: center;
+       }
+   }
+   
+   
+   
